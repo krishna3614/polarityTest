@@ -10,13 +10,13 @@ Frontend : React
 Backend: Node
 Database : Mongo
 Other dependencies:
-> axios -- send HTTP requests from react to node
->body-parser -- to read express/axios requests body data
->cors -- resouce sharing to open data from different URL's
->express -- for routing in node 
->mongoose -- for MongoDB
->bootstrap -- JS Styling framework
->react-router-dom -- routing in react
+* axios -- send HTTP requests from react to node
+* body-parser -- to read express/axios requests body data
+* cors -- resouce sharing to open data from different URL's
+* express -- for routing in node 
+* mongoose -- for MongoDB
+* bootstrap -- JS Styling framework
+* react-router-dom -- routing in react
 
 Rest API rules are created in /api/route.js mostly for creation of data and retreival of data from database routed through server.js using express
 
@@ -25,14 +25,14 @@ Data Schema, mongo connection are stored in multiple files to access and check e
 All data is uploaded to my free-tier personal MongoDB cloud Atlas cluster. Connection string with username is password is stored in code.
 
 
-** INSTALL LATEST VERSION OF NODE JS **
+**INSTALL LATEST VERSION OF NODE JS**
 
 For Windows follow this link :  https://blog.teamtreehouse.com/install-node-js-npm-windows
 
 
 Once installed, either clone this repo or download it as zip and extract
 
-** Application Installation **
+**Application Installation**
 
 Step 1: 
 
